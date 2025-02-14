@@ -1,4 +1,5 @@
 
+
 /* ===================== RESET ===================== */
 * {
   margin: 0;
@@ -18,30 +19,30 @@ body {
 }
 
 /* ===================== HEADER ===================== */
+/* Light background, dark text so it's easy to read */
 header {
-  background: #333;       /* Dark gray background */
+  background: #f2f2f2;
   padding: 2rem;
   text-align: center;
 }
 
-/* Large title (H1) */
 header h1 {
-  color: #fff;            /* White text for contrast */
+  color: #222;  /* Dark text for strong contrast */
   margin-bottom: 0.5rem;
 }
 
-/* Subtitle under H1 (if any) */
 header p {
-  color: #ddd;            /* Lighter gray for subtitle */
+  color: #555;  /* Slightly lighter dark gray for subtitle text */
   margin-bottom: 0;
 }
 
 /* ===================== NAVIGATION ===================== */
+/* Dark nav bar, white links */
 nav ul {
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  background: #444;       /* Slightly lighter than header */
+  background: #333;
 }
 
 nav li {
@@ -73,7 +74,7 @@ section, aside {
 h2, h3 {
   margin-bottom: 1rem;
   margin-top: 1rem;
-  color: #333;       /* Dark text for section headings */
+  color: #333; /* Dark text */
 }
 
 p, ul, ol {
@@ -89,7 +90,7 @@ footer {
   background: #f4f4f4;
   text-align: center;
   padding: 1rem;
-  position: fixed;      /* Optional: fix the footer at bottom */
+  position: fixed;  /* Optional: fix the footer at bottom */
   bottom: 0;
   left: 0;
   width: 100%;
